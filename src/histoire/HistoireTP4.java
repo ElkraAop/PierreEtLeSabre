@@ -20,12 +20,13 @@ public class HistoireTP4 {
 		Marco.recevoir(15);
 		Marco.boire();
 		
-		Yakuza jean = new Yakuza("Yaku Le Noir","whisky",30,"Le clan chauveSourire");
+		Yakuza jean = new Yakuza("Yaku Le Noir","whisky",30,"chauveSourire");
 		jean.direBonjour();
 		jean.extorquer(Marco);
 		
 		Ronnin roro = new Ronnin("Roro","shochu",60);
 		roro.direBonjour();
 		roro.donner(Marco);
+		roro.provoquer(jean);
 	}
 }
