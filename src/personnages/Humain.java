@@ -40,7 +40,7 @@ public void perdreArgent(int perte) {
 		this.argent = 0;
 	
 }
-private void parler(String texte) {
+protected void parler(String texte) {
 	System.out.println("("+this.nom+") - "+texte);
 }
 
